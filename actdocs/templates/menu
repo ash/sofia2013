@@ -1,0 +1,11 @@
+<div class="menu">
+	<p>[% PROCESS menus/users %]</p>
+	<p>[% PROCESS menus/news %]</p>
+	<p>[% PROCESS menus/talks %]</p>
+	<p>[% PROCESS menus/events %]</p>
+	<p>[% PROCESS menus/wiki %]</p>
+	<p><div class="items"><t><en>Hotel search</en></t></div></p>
+	<p>[% PROCESS menus/treasurer %]</p>
+	<p>[% PROCESS menus/admin %]</p>
+	<br /><p>[% PROCESS menus/act_confs %]</p>
+</div>

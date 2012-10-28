@@ -1,0 +1,122 @@
+[% WRAPPER ui %]
+
+       [% title = '"Perl Bulgaria" 2012' %]
+
+[% IF !global.request.user %]
+<div class="incut" style="font-size: 230%; margin-bottom: 0.3em; background: #99ccac; color: white; padding: 0.2em; text-align: center">
+<a href="/[% global.request.conference %]/register" style="color: white"><t><en>Become a speaker or simply register for attendance</en></t></a>
+</div>
+[% END %]
+
+<h1><en>What is BG Perl Workshop?</en></h1>
+<p><t><en>
+	The BG Perl Workshop is a gathering of all people which love and appreciate Perl in Bulgaria and in the near countries.<br />
+	It is the only place where you can come and talk all day for perl. Resolve your problems and share your Perl ideas.<br />
+	<br />
+	The third annual Bulgarian Perl Workshop will take place in Sofia on <b>March 10th, 2012</b>.
+	So come and listen to the magic that Perl is. And also share your mojo with us.
+</en></t></p>
+		
+<p> Attendance is free. </p>
+
+<h1><en>Geography</en></h1>
+Our workshop is in Sofia, and that means that people from other places of Bulgaria are very welcome. Foreign guests are desired a lot.
+
+If you need a place to stay. Please <a href="mailto:mm@yuhu.biz">contact us</a> for more information.
+
+<h1><en>Language </en></h1>
+<p>Official language of the workshop is Bulgarian, and we accept talks in English as well.</p>
+
+<h1><en>Talks</en></h1>
+<p>Perl events are not only about listening to the speakers. If you are good in Perl, please become the speaker. If you are afraid of a full-length talk, prepare a five-minute lightning talk. Here is some information of what you may speak about:
+
+Our wiki page: How to prepare a lightning talk?
+
+To submit a talk or lightning talk, fill in the form.
+
+Additional information: What are Lightning Talks?, Giving Lightning Talks.
+
+<h1><en>Sponsoring</en></h1>
+
+<p>If you desire to support Perl and its unique community, <a href="mailto:mm@yuhu.biz">consider sponsoring the event</a>. Your logotype will appear on the website; more options may be discussed individually.</p>
+
+<h1>Venue</h1>
+	<p>Find us at Sofia University, Centre Francophone, 4rd floor.</p>
+	<p>Venue address is Shipka 6, Sofia, Bulgaria.</p>
+	<p>
+	<div style="position: relative; height: 482px;">
+	<img style="position: absolute" src="/sofia2011/img/map.jpg" width="600" height="482" alt="" />
+</div>
+
+<h1><en>History</en></h1>
+
+<p style="margin-bottom: 0">We have been organizing Perl events since 2007. Here is a map of workshops and conferences organized by us in 7 countries covering the distance of 10 000 kilometers.</p>
+
+<div style="background: #99b3cc url(/sofia2011/img/world.gif) center center no-repeat; text-align: center"><img src="/sofia2011/img/perlevents.gif" width="717" height="285" /></div>
+
+<p> 24 hours feedback: <a href="mailto:mm@yuhu.biz">mm@yuhu.biz</a> </p>
+<br />
+<p> <a href="http://act.mongueurs.net/">Act - A Conference Toolkit</a> </p> 
+
+[% BLOCK context %]
+	<t>
+		<p>Official tag: sofiaperl2011</p>
+	</t>
+	<t>; margin-bottom: 0.3em
+		<en>
+			<h2 style="margin-top: 0; margin-bottom: 0.3em">Organizers</h2>
+			<h2><a href="http://sofia.pm.org/">Sofia.pm</a></h2>
+			<h2><a href="http://openfest.org/"><img src="/sofia2011/img/openfest_logo.gif" alt="OpenFest" border=0></a></h2>
+			<h2><a href="http://linux-bg.org/"><img src="/sofia2011/img/header-linuxbg2.png" alt="Linux-BG"></a></h2>
+			<h2><a href="http://1h.com/"><img src="/sofia2011/img/1h.png" alt="1h hosting optimizations"></a></h2>
+			<br /><br />
+        </en>
+	</t>
+
+	<div style="padding: 5px; margin: 0; width: 160px; background-color: #f5f5ea; z-index: 3;">
+		<t>
+			<en>
+				If your company loves Perl, please become our sponsor. White to <a href="mailto:mm@yuhu.biz">mm@yuhu.biz</a> for further information.
+			</en>
+		</t>
+	</div>
+
+<!-- Twitter feed by #perl -->
+<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'search',
+  search: '#perl',
+  interval: 6000,
+  title: 'Perl in the world. Now!',
+  subject: '',
+  width: 170,
+  height: 300,
+  theme: {
+    shell: {
+      background: '#8ec1da',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#444444',
+      links: '#1985b5'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: true,
+    live: true,
+    hashtags: true,
+    timestamp: true,
+    avatars: true,
+    toptweets: true,
+    behavior: 'default'
+  }
+}).render().start();
+</script>
+
+[% END %]
+
+[% END %]
