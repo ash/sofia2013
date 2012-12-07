@@ -9,3 +9,12 @@
 		[% WRAPPER menus/item %]<a href="[% c.url %]">[% c.name %]</a>[% END %]
 	[% END %]
 [% END %]
+    <div>
+	Archive
+	<ul>
+	<li><a href="http://2012.perlbulgaria.org/sofia2012/">Perl BG 2012</a></a>
+	<li><a href="http://2011.perlbulgaria.org/sofia2011/">Perl BG 2011</a></a>
+	<li><a href="http://2010.perlbulgaria.org/sofia2010/">Perl BG 2010</a></a>
+	<li><a href="http://2009.perlbulgaria.org/sofia2009/">Perl BG 2009</a></a>
+	</ul>
+	</div>
